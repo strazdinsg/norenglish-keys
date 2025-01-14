@@ -58,7 +58,9 @@ end)
 
 # On Windows
 
-On a Windows PC you can use [AutoHotKey](https://www.autohotkey.com/) with the following script:
+On a Windows PC you can use [AutoHotKey](https://www.autohotkey.com/) with the following script
+(Note - it is important you save it in ISO-8859-1 Encoding (Western Europe), not UTF-8, otherwise you will get weird two-character blocks instead of åøæ)!
+:
 ```
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
